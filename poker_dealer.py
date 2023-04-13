@@ -30,8 +30,7 @@ while True:
   print("**************************************************")
   print(f"* CPU cards : {cpu_cards}")
   print("**************************************************")
-  print("Who win, USER or CPU?")
-  print("USER: u | CPU: c")
+  print("Who win, USER (u) or CPU (c)?")
   win = input("The winner is ").lower()
   if win == "u":
     win_user += 1
